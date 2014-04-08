@@ -1,0 +1,178 @@
+html { 
+	background:#EEEEEE; 
+}
+
+body {
+	color:#111;
+	font-family: Arial, Helvetica, Sans-Serif;
+	background-image:url('bg.jpg');
+}
+
+h1,h2,h3,h4,h5,h6 { 
+	text-transform:uppercase; 
+}
+
+a {	
+	color:#64ACDE; 
+}
+
+a:focus,
+a:hover {
+	background:#64ACDE;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+p {
+	color:#777777;
+	font-size:0.9em;
+	line-height:1.3;
+	margin-bottom:0.75em;
+}
+
+#page {
+	background:#FFFFFF;
+	margin:0 auto;
+	padding:20px;
+	width:960px;
+}
+
+header {
+	border-bottom:4px dotted;
+	clear:both;
+	padding:20px 0;
+}
+
+header h1 {
+	display:inline;
+	color:#555555;
+	font-size:1.5em;
+	font-weight:900;
+}
+
+header h1 span#logo {
+	background:#C63;
+	border-radius:1.25em; -moz-border-radius:1.25em; -webkit-border-radius:1.25em;
+	font-size:2em;
+	color:#FFFFFF;
+	font-weight:600;
+	padding:0 0.2em;
+}
+
+header nav {
+	float:right;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+header nav ul {}
+
+header nav li {
+	border-right:2px solid #DDDDDD;
+	display:inline;
+	padding:0 0.5em;
+}
+
+header nav li:last-child {
+	border:none;
+}
+
+header nav li a {
+	color:#888;
+	text-decoration:none;
+}
+
+#page > h1 {
+	color: #64ACDE;
+	font-size: 3em;
+	font-weight: 900;
+	padding: 0.5em 0;
+}
+
+#intro {
+	border-bottom:4px dotted;
+	clear:both;
+	margin-bottom:20px;
+	padding:20px 0;
+}
+
+#intro img {
+	float:left;
+	margin-right:10px;
+}
+
+#intro > div {
+	float: left;
+	margin-left: 10px;
+	width: 600px;
+}
+
+#intro h1 {
+	color: #555555;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-bottom: 0.25em;
+}
+
+#intro ul {
+	font-weight:bold;
+	line-height:1.5;
+	list-style-type:square;
+	margin-bottom:0.75em;
+	padding-left:1.2em;
+}
+
+#intro span#start {
+	color:#C63;
+	display:block;
+	font-size:1.75em;
+	font-weight:600;
+	margin-top:0.75em;
+	text-transform:uppercase;
+}
+
+
+article.bitcoininfo {
+	float:left;
+	margin-right:10px;
+	width:460px;
+}
+
+section#trucryptinfo {
+	float:left;
+	margin-left:10px;
+	width:460px;
+}
+
+article.bitcoininfo img,
+section#trucryptinfo img {
+	float:left;
+	margin-right:10px;
+}
+
+article.bitcoininfo h1,
+section#trucryptinfo h1 {
+	font-weight:bold;
+	margin-bottom:0.25em;
+}
+
+article.bitcoininfo > div,
+section#trucryptinfo > div {
+	padding:0.5em;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+	content: '\0020';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix:after {
+	clear: both;
+}
